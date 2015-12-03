@@ -10,17 +10,6 @@ sudo apt-get install python-sphinx
 
 Para poder generar la documentación hay que realizar lo siguiente:
 
-### Web
-
-```bash
-cd doc
-make html
-```
-
-Esto genera una página en *html* (`index.html`) que se encuentra en la carpeta `doc/_build/html/`.
-
-### PDF
-
 ```bash
 cd doc
 make latexpdf
